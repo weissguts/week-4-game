@@ -1,0 +1,109 @@
+body {
+    margin-left: 1%;
+    background: lightblue;
+}
+.cc-head {
+    background: #c2722d;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    color: #ffffff;
+}
+
+.text-box-main {
+    background: #f8e6cd;
+    color: #689567;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    margin-bottom: 1%;
+
+}
+
+.wannabe-ai-number {
+    background: #6bc87f;
+    height: 100px;
+}
+
+.wannabe-user-winloss {
+    background: #70fcfc;
+    height: 100px;
+    padding-top: 0.5%;
+
+}
+
+
+
+.ghost {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.gems {
+    width: 50%;
+}
+
+.gem1 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: white;
+    margin-right: 0.5%;
+
+}
+
+.gem2 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: white;
+    margin-right: 0.5%;
+}
+
+.gem3 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: white;
+    margin-right: 0.5%;
+}
+
+.gem4 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background: white;
+    margin-right: 0.5%;
+}
+
+.wannabe-ai-score {
+    font-size: 32px;
+}
+
+.tot-score {
+    background: #44a296;
+    font-size: larger;
+    color: #ffffff;
+}
+
+.curr-score {
+    background: #44a296;
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: 1%;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="row">
+    <h1 class="col-md-2 cc-head">Crystal Collector!</h1>
+</header>
+
+<div class="row">
+    <div class="col-md-3 text-box-main">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total
+        score.</p>
+        <p>You win the game by matching your total score to a random number, you lose the game if your total score
+        goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+</div>
+
+<!--CompScore and Wins/Losses-->
+
+<div class="row nums">
+    <div class="col-sm-1 wannabe-ai-number">
+        <p class="wannabe-ai-score">00</p>
+
+    </div>
+    <div class="col-sm-1 wannabe-user-winloss">
+        <p>
+            Wins: 0
+            <br><br>
+            Losses: 0
+        </p>
+    </div>
+</div>
+
+<!--Gems-->
+<div class="row gems">
+    <div class="col-sm-1 gem1"><img src="assets/images/001-gem-1.png"></div>
+    <div class="col-sm-1 gem2"><img src="assets/images/002-gemstone.png"></div>
+    <div class="col-sm-1 gem3"><img src="assets/images/003-gem.png"></div>
+    <div class="col-sm-1 gem4"><img src="assets/images/004-slot-machine.png"></div>
+
+</div>
+
+<!--Total Score-->
+<div class="row">
+
+
+<div class="col-sm-1 tot-score"> Your total score is: </div>
+</div>
+<!--Player Current Number-->
+
+<div class="row">
+
+
+
+<div class="col-sm-1 curr-score"> 0 </div>
+
+</div>
+<footer>
+
+</footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/game.js"></script>
+</body>
+</html>
